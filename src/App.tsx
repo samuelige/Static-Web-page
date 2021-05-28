@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Static Web Page</h1>
+    <div>
+      <header>
+        <h1 className='text-red-300'>Static Web Page</h1>
       </header>
     </div>
   );
